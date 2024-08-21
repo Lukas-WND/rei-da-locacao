@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 
 export default function Header() {
   return (
-    <div className="fixed w-full">
+    <header className="fixed w-full bg-custom-bg">
       <div className="flex justify-between items-center mx-14 h-20">
         <div className="flex gap-8">
           <HeaderLogo />
@@ -12,6 +12,6 @@ export default function Header() {
         </div>
         <HeaderContact />
       </div>
-    </div>
+    </header>
   );
 }
