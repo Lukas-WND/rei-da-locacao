@@ -7,6 +7,9 @@ export default {
         primary: ["Bebas Neue", "sans-serif"],
         secondary: ["Noto Sans", "sans-serif"],
       },
+      colors: {
+        "custom-blue": "#337596",
+      },
       backgroundColor: {
         "custom-bg": "#FCFBFC",
       },
