@@ -1,4 +1,4 @@
-import { Product } from "../HeroPromotions";
+import { Product } from "../HeroDemands";
 
 export default function ProductCard({ prod }: { prod: Product }) {
   return (

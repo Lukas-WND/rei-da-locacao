@@ -11,7 +11,7 @@ export interface Product {
   promo: boolean;
 }
 
-export default function HeroPromotions() {
+export default function HeroDemands() {
   const products: Product[] = [
     {
       name: "All Black Camping - 3x3",
@@ -102,7 +102,7 @@ export default function HeroPromotions() {
   return (
     <section className="mt-20 mx-24">
       <h2 className="font-secondary text-5xl">Os mais pedidos</h2>
-      <div className="my-20 grid grid-cols-1  lg:grid-cols-2 xl:grid-cols-3 gap-24 items-center justify-items-center">
+      <div className="my-20 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-24 items-center justify-items-center">
         {products.map((item, idx) => (
           <ProductCard prod={item} key={idx} />
         ))}

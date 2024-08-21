@@ -1,6 +1,8 @@
 import Header from "./components/header/Header";
 import HeroPromo from "./components/hero/HeroPromo";
-import HeroPromotions from "./components/hero/HeroPromotions";
+import HeroDemands from "./components/hero/HeroDemands";
+import HeroSocial from "./components/hero/HeroSocial";
+import HeroSuccess from "./components/hero/HeroSuccess";
 
 function App() {
   return (
@@ -8,7 +10,10 @@ function App() {
       <Header />
       <main className="pt-20">
         <HeroPromo />
-        <HeroPromotions />
+        <HeroDemands />
+        <HeroSocial />
+        <HeroSuccess />
+        
       </main>
     </>
   );
