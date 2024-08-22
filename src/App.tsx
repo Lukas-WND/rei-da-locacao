@@ -5,6 +5,7 @@ import HeroSocial from "./components/hero/HeroSocial";
 import HeroSuccess from "./components/hero/HeroSuccess";
 import HeroTestemonials from "./components/hero/HeroTestemonials";
 import HeroPartners from "./components/hero/HeroPartners";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <HeroTestemonials />
         <HeroPartners />
       </main>
+      <Footer />
     </>
   );
 }
