@@ -3,6 +3,8 @@ import HeroPromo from "./components/hero/HeroPromo";
 import HeroDemands from "./components/hero/HeroDemands";
 import HeroSocial from "./components/hero/HeroSocial";
 import HeroSuccess from "./components/hero/HeroSuccess";
+import HeroTestemonials from "./components/hero/HeroTestemonials";
+import HeroPartners from "./components/hero/HeroPartners";
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
         <HeroDemands />
         <HeroSocial />
         <HeroSuccess />
-        
+        <HeroTestemonials />
+        <HeroPartners />
       </main>
     </>
   );
