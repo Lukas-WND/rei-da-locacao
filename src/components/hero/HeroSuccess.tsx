@@ -23,7 +23,7 @@ export default function HeroSuccess() {
         </div>
         <div>
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=sG3hXa1Kb8w"
+            url="https://www.youtube.com/watch?v=RjlOYRtAClA"
           />
         </div>
       </div>
