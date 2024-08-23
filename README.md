@@ -48,3 +48,12 @@ export default tseslint.config({
   },
 })
 ```
+
+# Run this application
+
+Clone this repository in your computer
+
+In your terminal, inside the project path, run de following commands:
+
+- npm install
+- npm run dev

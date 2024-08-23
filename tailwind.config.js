@@ -12,6 +12,8 @@ export default {
       },
       backgroundColor: {
         "custom-bg": "#FCFBFC",
+        "secondary-bg": "#E9E7E7",
+        "footer-bg": "#000000",
       },
     },
   },
